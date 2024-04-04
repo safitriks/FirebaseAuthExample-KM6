@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         showUserData()
         setClickListeners()
         observeData()
+        throw IllegalAccessException("Test Crash")
     }
 
     private fun setClickListeners() {
